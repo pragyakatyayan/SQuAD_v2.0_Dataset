@@ -2,8 +2,8 @@
 Stanford Question-Answering Dataset (v2.0) - parsed completely in ms-excel file.
 
 
-The SQuAD 2.0 dataset is available online in JSON format (Link)[https://rajpurkar.github.io/SQuAD-explorer/]
-There are several csv files available for download on Kaggle etc. but none of them have all the attributes related to a question (as given in json files). Also, most of the datasets tend to ignore the `unanswerable` questions of SQuAD 2.0. The parsing of JSON files can be a task for beginners, so I have taken the opportunity of uploading the completely parsed SQuAD 2.0 dataset in excel files (both training and development sets). 
+The SQuAD 2.0 dataset is available online in JSON format [Link](https://rajpurkar.github.io/SQuAD-explorer/)
+There are several csv files for SQuAD 2.0 available for download on Kaggle etc. but none of them have all the attributes related to a question (as given in json files). Also, most of the datasets tend to ignore the `unanswerable` questions of SQuAD 2.0. The parsing of JSON files can be a task for beginners, so I have taken the opportunity of uploading the completely parsed SQuAD 2.0 dataset in excel files (both training and development sets). 
 
 The Training data has following columns:
 
@@ -42,4 +42,8 @@ Dev_set details:
   Answerable questions: 5928
   15 unanswerable questions have no plausible answers given in the dataset.
 
-Feel free to use the dataset for R&D purposes. Don't forget to cite (Rajpurkar et al. (2018))[https://arxiv.org/abs/1806.03822] 
+Feel free to use the dataset for R&D purposes! Thank you!
+
+Important Note: This dataset is the original property of Rajpurkar et al. (2018) and I haven't made any new changes in it so don't forget to cite [Rajpurkar et al. (2018)](https://arxiv.org/abs/1806.03822) when using this dataset.
+
+Cite: Rajpurkar, P., Jia, R., & Liang, P. (2018). Know what you don't know: Unanswerable questions for SQuAD. arXiv preprint arXiv:1806.03822.
